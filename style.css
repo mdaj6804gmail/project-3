@@ -1,0 +1,819 @@
+body{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+/* hader logo nav */
+
+
+ header{width: 100%;
+    height: 70px;
+   position: fixed;
+   top: 0px;
+   background-color: #ffffff;
+   opacity:.95;
+
+
+ }
+
+header div{ 
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+
+
+header .logo{margin-left:200px ;
+    padding: 20px;
+
+}
+
+
+
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    margin-top: 8px;
+    align-items: center;
+justify-content: center;
+}
+
+header .nav ul{
+    list-style: none;
+    /* display: none; */
+}
+
+
+
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+
+
+header .nav ul li a:hover{ color:#8393FF;}
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0,.9);
+    line-height: 80px;
+    float: right;
+    margin-right:-170px;
+}
+#check{
+    display: none;
+}
+
+/* header end */
+
+/* section */
+
+
+.section1{
+background-color: #F9F9FF;
+width: 100%;
+height: 665px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 75px;
+
+
+}
+
+
+
+.text1, .img1{width: 50%;}
+
+.text1{
+    justify-content: center;
+    margin-left: 230px;
+    margin-bottom: 120px;
+  
+
+}
+
+.text1 h3{
+    font-weight: normal;
+}
+
+.text1 h1{font-size: 60px;}
+
+
+.text1 p{
+  
+    
+    color: rgba(184, 178, 178);
+    text-align: justify;
+    width: 70%;
+}
+
+
+.text1 input{
+
+    padding: 8px 20px;
+    background-color:#8393FF ;
+    color: #FFF;
+    outline: none;
+    border: 1px solid #8393FF;
+    font-size: 15px;
+}
+.text1 input:hover{ box-shadow:5px 10px 30px rgb(181, 204, 254) ;transition: all .5s ease-in;
+    cursor: pointer;
+}
+
+
+
+.img1{
+    padding-right: 160px;
+    margin-top: 50px;
+
+}
+
+
+.img1 img{
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+
+
+/* section 2 start */
+
+
+
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+
+
+}
+
+ .img2,.text2{ 
+    width: 50%;
+   
+
+
+}
+.section2 .text2{
+    text-align: justify;
+    
+   
+    
+}
+
+
+.img2 img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 190px;
+    margin-right: 20px;
+}
+
+.section2 .text2 h3{
+    font-weight: normal;
+    color: rgba(0, 0, 0,.7);
+    font-size: 15px;
+
+
+}
+.text2{
+    margin-left: 176px;
+    margin-bottom: 120px;
+  
+
+}
+.section2 .text2 h1{
+         font-weight: bold;
+         font-size:40px ;
+
+}
+
+ .text2 p{
+    font-size: 16px;
+    color: rgb(0, 0, 0,.7);
+    width: 80%;
+}
+
+.text2 input { font-size: 15px;
+   text-transform: uppercase;
+   color: #FFF;
+   background-color: #8393FF;
+   border: 1px solid #8393FF ;
+outline: none;
+padding: 12px 15px ;
+
+}
+
+.text2 input:hover{box-shadow:5px 10px 30px rgb(181, 204, 254) ;transition: all .5s ease-in;
+    cursor: pointer;
+}
+
+
+
+/* section 2 end */
+
+
+
+
+
+/* section 3 start */
+
+
+.section3{
+
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.section3 .text3 h1{
+font-size: 40px;
+line-height: 10px;
+}
+
+.section3 .text3 p{
+    width: 700px;
+    color: rgba(0, 0, 0,.5);
+    margin: 0 auto;
+}
+
+
+
+
+.Services{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+
+
+}
+
+.ser1,.ser2{
+    width: 100%;
+    overflow: hidden;
+}
+
+.ser1 div,.ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5;
+    margin:0px auto ;
+}
+.ser1{
+
+    
+}
+.ser2{padding-top: 30px;
+
+
+
+}
+
+
+.Services i{
+    font-size: 45px;
+    color: rgba(0, 0, 0,.7);
+}
+
+
+.Services h1{
+    color: rgba(0, 0, 0,.9);
+}
+
+
+.Services p{ color: rgba(0, 0, 0,.5);
+width: 70%; margin: 0 auto;}
+
+.img3{max-width: 70px;}
+
+/* hover  Services */
+
+
+.ser1 div:hover h1{ color:#8490FF  ; transition: all ease-in .5s; }
+.ser1 div:hover i{ color:#8490FF  ; transition: all ease-in .5s; }
+.ser2 div:hover h1{ color:#8490FF  ; transition: all ease-in .5s; }
+.ser2 div:hover i{ color:#8490FF  ; transition: all ease-in .5s; }
+
+/* section 3 end */
+
+
+
+/* section 4 Start */
+
+
+
+
+
+.section4{
+    width: 100%;
+    height: 300px;
+    line-height: 10px;
+   
+    background-color:#7D99FE ;
+  
+ }
+ .section4 div{
+    float: left;
+  width: 100%;
+
+
+   
+   
+} 
+.section4 div h2 { font-size: 50px;
+color: #ffffff; text-align: center;}
+.section4 div p { font-size: 20px;
+    text-align: center;
+    color: #ffffff;}
+
+.h5{display: flex;
+    flex-direction: row;
+   
+    position:relative;
+    top: 100px;
+
+
+}
+
+
+/* 
+.section4 div span,p{text-align: center;
+color: #FFF; } */
+
+.section4 div span{font-size: 45px;
+}
+
+
+/* section 4 end */
+
+
+/* <!-- portfolio 5 start--> */
+
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section5 .text5{
+text-align: center;
+padding-top: 70px;
+
+
+
+}
+.section5 .text5 h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0,.9);
+}
+
+.section5 .text5 p{
+ color: rgba(0, 0, 0,.7);
+ margin-top: -20px;
+ margin-bottom: 30px;
+
+}
+
+.nav2 ul{list-style:none ; text-align: center; padding-top: 100px;}
+.nav2 ul li{ display: inline-block;
+padding:5px  20px;text-transform: uppercase;font-weight: bold;
+}
+
+
+.section5 .imgg{
+    display: flex;
+    width: 65%;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.section5 .imgg .imgg1{
+    width:340px ;
+    height:339px ;
+    padding: 50px 0;
+  
+  text-align: center;
+
+}
+.section5 .imgg .imgg1 h1{
+  
+    color: rgba(0, 0, 0,.9);
+}
+
+.section5 .imgg .imgg1 p{
+    line-height: 0;
+    color: rgba(0, 0, 0,.7);
+}
+
+.section5 figure{
+    background:linear-gradient(40deg,#7DB1FC 40%,#62bdfc 100% );
+    width: 340px;
+    height: 339px;margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;}
+    .pre1{ visibility: hidden;}
+
+    .section5 figure img:hover .pre1{visibility: visible;}
+    .section5 figure:hover img{opacity: .5;}
+/* <!-- portfolio  end--> */
+
+/*   <!-- Pricing Table Start --> */
+
+.section6{
+    width: 100%;
+    
+    height: 700px;
+   
+    
+}
+.section6 .text6{ text-align: center; padding-top: 90px;line-height: 0;
+
+}
+
+.section6 .text6 p{color: rgba(0, 0, 0,.5);line-height: 0;}
+
+.section6 .text6 h1{
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+.section6 .card{
+ 
+  
+    width:910px;
+    height: 544px;
+    display: flex;
+   
+    margin:0 auto;
+    justify-content: space-between;
+   
+    padding-top: 83px;
+}
+.section6 .card .card1 h3{font-size: 40px;}
+.section6 .card .card1:hover h3{visibility: hidden; transition: 0ms;}
+
+.section6 .card .card1{
+    background-color: #e6e7eb;
+    width: 300px;
+    height:490px;
+  
+    text-align: center;
+}
+.section6 .card .card1 h1{
+    font-size: 50px;
+}
+
+.section6 .card .card1 input{
+    font-size: 30px;
+    padding: 10px 55px;
+    font-weight: bold;
+    outline: none;
+    background-color: #fff8f8;
+    color: rgb(28, 22, 22);
+    border:  1px solid #FFF;
+    cursor: pointer;
+    margin-bottom: 200px;
+    visibility: hidden;
+    position: relative;
+    top: -97px;
+}
+.section6 .card .card1:hover input{visibility: visible;
+transition:  all ease-in .5s;}
+
+
+.section6 .card .card1:hover{
+    background-color: #8490FF;
+    transition:  all ease-in .5s;
+    transform: scale(1.1);
+    color: #FFF;
+
+}
+
+
+
+/*   <!-- Pricing Table end --> */
+
+/* footer start */
+
+footer{
+    background-color:#04091E ;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color:#FFF ;
+    margin-top: 100px;
+}
+
+
+footer .foot{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+footer .foot .foot1 h3{color: #FFF;}
+footer .foot .foot1{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+
+footer .foot .foot1 button{
+    font-size: 15px;
+    color: #FFF;
+    background-color: #8393FF;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: -4px;
+}
+footer .foot .foot1 button:hover{
+    background-color: #6b79fb;
+    transition: .5s;
+}
+
+footer .foot .foot1 i{
+    font-size: 20px;
+    padding:5px 20px;
+    color: #f2f4f9;
+    cursor: pointer;
+}
+
+
+
+footer .foot .foot1 i:hover{
+    color: #8490FF;
+    transition: all ease-in .5s;
+}
+
+
+
+/* footer end */
+
+
+@media (max-width:768px){
+
+    header{
+        width: 100%;
+        height: auto;
+        z-index: 10000;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding:20px;
+
+    }
+     .checkbtn{
+    display:block !important;
+    cursor: pointer;
+    }
+
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ffffff;
+        top: 54px;
+        left: -200%;
+        transition: all .0s;
+        z-index: 1;
+       
+        
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        z-index: 1;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+
+#check:checked ~ ul{
+    left: 0;
+  
+}
+
+}
+
+
+@media (max-width:768px){
+    .section1{
+        width: 100%;
+        display: block;
+        height: auto;
+        margin-top: 110px;
+    }
+
+.text1{
+    margin: auto;
+    padding: 0px;
+}
+
+.text1 h3{font-size: 15px;
+}
+
+.text1 h1{font-size: 30px;}
+
+.img1 img {
+    margin-left:130px;
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    top: 150px;
+    position: relative;
+   
+}
+.section2 div{
+    width: 100%;
+   
+}
+    
+
+.section2 .img2 img {
+    position: relative;
+   
+    margin: 0 auto;
+}
+.text2{
+    position: relative;
+    left:0px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center !important;
+}
+.text2 h3{
+    font-size: 12px;
+    color: rgba(0, 0, 0,0.8);
+}
+.section2 .text2 h1 {
+  
+    font-size:30px;
+    text-align: center;
+    color: rgba(0, 0, 0,0.8);
+    display: block;
+}
+.section2 .text2 p{
+    font-size: 12px;
+ margin: 0 auto;
+    text-align: center;
+    
+}
+.section2 .text2 input{
+margin-top: 20px;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 40px;
+}
+.section3 .text3 h1{
+    font-size: 30px;
+}
+.section3 .text3 p{
+    width: 90%;
+}
+.ser1 div,.ser2 div{
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+.section4 {
+    position: relative;
+    top:100px ;
+    height:750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.section4 .h5 div{
+    clear: left;
+    position: relative;
+}
+.section4 div{
+   
+    width: 100%;
+  margin: 0 auto;
+    clear:left;
+   display: inline-block;
+}
+.section5 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+}
+.section5 .text5 h1{
+    font-size: 30px;
+}
+.section6{
+    width: 100%;
+    height:auto;
+    position: relative;
+    top: 50px;
+
+}
+.section6 .text6 h1{
+    font-size: 20px;
+}
+.section6 .text6 p{
+  margin:auto;
+  text-align: center;
+  font-size:10px;
+  width:80%;
+  
+}
+.section6 .card{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+footer{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top: 65em;
+}
+footer .foot{
+    display: block;
+    position: relative;
+    top: 40px;
+}
+footer .foot1{
+    width: 80%;
+}
+footer .foot1 input{
+    width: 70%;
+    margin: auto;
+}
+footer .foot1 button{
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+}
+}
+
+/* LAptop */
+@media (max-width:940px){
+    
+.section3 .text3 h1{
+    font-size: 30px;
+}
+}
+
